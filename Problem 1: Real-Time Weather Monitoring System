@@ -71,8 +71,7 @@ def main():
     location = input("Enter city name or coordinates (latitude,longitude): ")
     weather_data = fetch_weather_data(location)
     display_weather_data(weather_data)
-
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
 
 Documentation
